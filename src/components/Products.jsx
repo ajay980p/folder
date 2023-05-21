@@ -77,7 +77,7 @@ const Products = () => {
   return (
     <>
       <Container>
-        {loading ? <Loading /> : error !== "" ? <Error /> : <ShowProducts />}
+        <ShowProducts />
       </Container>
     </>
   );

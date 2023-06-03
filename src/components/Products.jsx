@@ -10,8 +10,6 @@ import {
   CardActionArea,
   Container,
 } from "@mui/material";
-import Loading from "./Loading";
-import Error from "./Error";
 import { Colors } from "../styles/theme/theme";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";

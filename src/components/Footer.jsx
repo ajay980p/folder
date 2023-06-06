@@ -17,8 +17,8 @@ const Footer = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#3f50b5",
-        color: "white",
+        backgroundColor: "#80deea",
+        color: "black",
         width: "100vw",
       }}
     >
@@ -32,7 +32,7 @@ const Footer = () => {
               {helpList.map((item, key) => (
                 <ListItem key={key} sx={{ padding: ".1rem" }}>
                   <Link to="/waiting" aria-label={item}>
-                    <ListItemText sx={{ color: Colors.white }} primary={item} />
+                    <ListItemText sx={{ color: Colors.black }} primary={item} />
                   </Link>
                 </ListItem>
               ))}
@@ -46,7 +46,7 @@ const Footer = () => {
               {aboutList.map((item, key) => (
                 <ListItem key={key} sx={{ padding: ".1rem" }}>
                   <Link to="/waiting" aria-label={item}>
-                    <ListItemText sx={{ color: Colors.white }} primary={item} />
+                    <ListItemText sx={{ color: Colors.black }} primary={item} />
                   </Link>
                 </ListItem>
               ))}
@@ -60,7 +60,7 @@ const Footer = () => {
               {infoList.map((item, key) => (
                 <ListItem key={key} sx={{ padding: ".1rem" }}>
                   <Link to="/waiting" aria-label={item}>
-                    <ListItemText sx={{ color: Colors.white }} primary={item} />
+                    <ListItemText sx={{ color: Colors.black }} primary={item} />
                   </Link>
                 </ListItem>
               ))}
@@ -70,7 +70,7 @@ const Footer = () => {
       </Box>
       <Box
         sx={{
-          backgroundColor: "#2196f3",
+          backgroundColor: "#00bcd4",
           padding: ".8rem",
           textAlign: "center",
         }}

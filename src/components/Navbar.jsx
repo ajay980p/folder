@@ -48,7 +48,7 @@ const Navbar = () => {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        backgroundColor: "#3f50b5",
+        backgroundColor: Colors.primary,
         padding: ".5rem",
         fontSize: "1.2rem",
       }}
@@ -89,7 +89,7 @@ const Navbar = () => {
   return (
     <AppBar
       position="sticky"
-      sx={{ width: "100vw", fontSize: "1.2rem", padding: ".3rem" }}
+      sx={{ width: "100vw", fontSize: "1.2rem", padding: ".3rem", backgroundColor: "#00bcd4", }}
     >
       {matches ? (
         <AppBarContainer>

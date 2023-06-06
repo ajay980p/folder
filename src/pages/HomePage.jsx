@@ -44,16 +44,17 @@ const HomePage = () => {
             Check out all the trends
           </Typography>
         </CardContent>
-        <CardMedia
+
+        {/* <CardMedia
           sx={{
             width: { xs: 400, md: 500 },
             height: { xs: 400, md: 450 },
           }}
           image="/images/background.png"
           loading="lazy"
-        />
+        /> */}
       </MainImageBox>
-      <Divider />
+      {/* <Divider /> */}
 
       {/* <Typography
         variant="h4"

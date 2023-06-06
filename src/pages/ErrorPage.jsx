@@ -17,10 +17,10 @@ const ErrorPage = () => {
           >
             Work in progress...
           </Typography>
-          <Typography variant="h6" sx={{ mb: { xs: "2rem" } }}>
+          {/* <Typography variant="h6" sx={{ mb: { xs: "2rem" } }}>
             Our exciting new website will launch soon. Come back and check it
             out.
-          </Typography>
+          </Typography> */}
           <Link to={"/"}>
             <MyButton
               variant="contained"
@@ -31,14 +31,14 @@ const ErrorPage = () => {
             </MyButton>
           </Link>
         </Box>
-        <CardMedia
+        {/* <CardMedia
           sx={{
             width: { xs: 400, md: 500 },
             height: { xs: 400, md: 450 },
           }}
           image="/images/Working.png"
           title="We are working on the site"
-        />
+        /> */}
       </MainImageBox>
     </PageContainer>
   );

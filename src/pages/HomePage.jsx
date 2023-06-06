@@ -55,7 +55,7 @@ const HomePage = () => {
       </MainImageBox>
       <Divider />
 
-      <Typography
+      {/* <Typography
         variant="h4"
         sx={{
           textAlign: "center",
@@ -65,8 +65,8 @@ const HomePage = () => {
         }}
       >
         NEW ARRIVALS
-      </Typography>
-      <ImageList variant="masonry" cols={matches ? 2 : 3} gap={8}>
+      </Typography> */}
+      {/* <ImageList variant="masonry" cols={matches ? 2 : 3} gap={8}>
         {imageList.map((item) => (
           <ImageListItem key={item}>
             <img
@@ -77,7 +77,7 @@ const HomePage = () => {
             />
           </ImageListItem>
         ))}
-      </ImageList>
+      </ImageList> */}
       <Link to={"/products"} aria-label="See all products">
         <MyButton variant="contained" endIcon={<ArrowForwardIcon />} mt="3rem">
           See all products

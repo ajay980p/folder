@@ -48,7 +48,7 @@ const Navbar = () => {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        backgroundColor: Colors.primary,
+        backgroundColor: "#3f50b5",
         padding: ".5rem",
         fontSize: "1.2rem",
       }}
@@ -62,12 +62,10 @@ const Navbar = () => {
         {mainPages.map((page) => (
           <Link
             key={page}
-            to={`/${
-              page === "home" ? "" : page === "about" ? "waiting" : page
-            }`}
-            aria-label={`Go to page: ${
-              page === "home" ? "Home" : page === "about" ? "about" : page
-            }`}
+            to={`/${page === "home" ? "" : page === "about" ? "waiting" : page
+              }`}
+            aria-label={`Go to page: ${page === "home" ? "Home" : page === "about" ? "about" : page
+              }`}
           >
             <Button
               key={page}
@@ -115,7 +113,7 @@ const Navbar = () => {
           </Drawer>
 
           <AppBarLogo variant="h6" noWrap component="a" href="/">
-            SHINE <DiamondIcon />
+            ECOMMERCE <DiamondIcon />
           </AppBarLogo>
 
           <Link to={`/cart`} aria-label="Go to my Cart">
@@ -130,18 +128,16 @@ const Navbar = () => {
       ) : (
         <AppBarContainer>
           <AppBarLogo noWrap component="a" href="/">
-            SHINE <DiamondIcon />
+            ECOMMERCE  <DiamondIcon />
           </AppBarLogo>
           <ButtonGroup>
             {mainPages.map((page) => (
               <Link
                 key={page}
-                to={`/${
-                  page === "home" ? "" : page === "about" ? "waiting" : page
-                }`}
-                aria-label={`Go to page: ${
-                  page === "home" ? "Home" : page === "about" ? "about" : page
-                }`}
+                to={`/${page === "home" ? "" : page === "about" ? "waiting" : page
+                  }`}
+                aria-label={`Go to page: ${page === "home" ? "Home" : page === "about" ? "about" : page
+                  }`}
               >
                 <Button
                   key={page}

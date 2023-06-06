@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <Box
       sx={{
-        backgroundColor: Colors.primary,
+        backgroundColor: "#3f50b5",
         color: "white",
         width: "100vw",
       }}
@@ -70,7 +70,7 @@ const Footer = () => {
       </Box>
       <Box
         sx={{
-          backgroundColor: Colors.primaryDark,
+          backgroundColor: "#2196f3",
           padding: ".8rem",
           textAlign: "center",
         }}

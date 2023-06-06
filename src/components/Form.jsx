@@ -17,7 +17,7 @@ const Form = ({ title, handleClick }) => {
           required
           id="outlined-required"
           label="Email"
-          placeholder="monikaGeller@gmail.com"
+          placeholder="ajay980p@gmail.com"
           onChange={(e) => setEmail(e.target.value)}
           size="small"
           sx={{ mb: "1rem" }}
